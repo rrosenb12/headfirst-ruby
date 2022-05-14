@@ -30,7 +30,6 @@ guessed_it = false
 ## puts remaining_guesses.to_s + " guesses left."
 ## puts "#{remaining_guesses} guesses left"
 ## puts "#{10 - number_of_guesses} guesses left"
-
 puts "You've got #{10 - number_of_guesses} guesses left."
 print "Make a guess: "
 
