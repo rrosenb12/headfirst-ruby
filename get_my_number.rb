@@ -29,3 +29,11 @@ remaining_guesses = 10 - number_of_guesses
 ## puts "#{10 - number_of_guesses} guesses left"
 
 puts "You've got #{10 - number_of_guesses} guesses left."
+print "Make a guess: "
+
+# Turn player input to into an integer
+## gets always returns a string
+## No need to call chomp here because to_i will remove any non-numeric character after the number
+guess = gets.to_i 
+
+puts guess < answer
