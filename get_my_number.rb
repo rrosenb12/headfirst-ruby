@@ -21,7 +21,6 @@ answer = rand(100) + 1
 number_of_guesses = 0
 
 # Keep track of whether or not the player guessed the number
-
 guessed_it = false
 
 # The player only gets 10 guesses; keep track of how many guesses the user has left using the number of guesses they already took (this is being done in string interpolation currently):
