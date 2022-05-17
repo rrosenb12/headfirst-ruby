@@ -51,9 +51,12 @@ end
 
 # If the player runs out of turns, tell them what the number was
 ## Can use the below, but can use the un-commented out code for easier reading
-=begin if not guessed_it
+=begin
+
+if not guessed_it
     puts "Sorry. You didn't get my number. It was #{answer}."
 end
+
 =end
 unless guessed_it
     puts "Sorry. You didn't get my number. It was #{answer}"
